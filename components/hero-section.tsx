@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Play } from "lucide-react"
+import { ArrowRight, Play, ExternalLink } from "lucide-react"
 
 export function HeroSection() {
   return (
@@ -35,19 +35,68 @@ export function HeroSection() {
             more with secure transactions and instant payouts.
           </p>
 
+          <div className="mb-12 animate-in fade-in slide-in-from-bottom duration-700 delay-250">
+            <p className="text-sm text-foreground/60 mb-4 font-medium">Choose Your Platform:</p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 max-w-3xl mx-auto">
+              <a
+                href="https://khelguru.co.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-primary/10 border border-primary/30 hover:bg-primary/20 hover:border-primary/50 transition-all duration-300"
+              >
+                <span className="text-sm font-medium text-foreground">khelguru.co.in</span>
+                <ExternalLink className="w-3 h-3 text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+              </a>
+              <a
+                href="https://khelguru777.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-primary/10 border border-primary/30 hover:bg-primary/20 hover:border-primary/50 transition-all duration-300"
+              >
+                <span className="text-sm font-medium text-foreground">khelguru777.com</span>
+                <ExternalLink className="w-3 h-3 text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+              </a>
+              <a
+                href="https://khelguru247.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-primary/10 border border-primary/30 hover:bg-primary/20 hover:border-primary/50 transition-all duration-300"
+              >
+                <span className="text-sm font-medium text-foreground">khelguru247.in</span>
+                <ExternalLink className="w-3 h-3 text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+              </a>
+              <a
+                href="https://khelguru247.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-primary/10 border border-primary/30 hover:bg-primary/20 hover:border-primary/50 transition-all duration-300"
+              >
+                <span className="text-sm font-medium text-foreground">khelguru247.com</span>
+                <ExternalLink className="w-3 h-3 text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+              </a>
+            </div>
+          </div>
+
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom duration-700 delay-300">
+          <a
+                href="https://khelguru.co.in"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
             <Button
               size="lg"
-              className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6 animate-pulse-glow group"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6 animate-pulse-glow group cursor-pointer"
             >
+              
               Start Playing Now
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
+            </a>
             <Button
               size="lg"
               variant="outline"
-              className="text-lg px-8 py-6 border-primary/30 hover:bg-primary/10 group bg-transparent animate-pulse"
+              className="text-lg px-8 py-6 border-primary/30 hover:bg-primary/10 group bg-transparent"
             >
               <Play className="mr-2 group-hover:scale-110 transition-transform" />
               Watch Demo
